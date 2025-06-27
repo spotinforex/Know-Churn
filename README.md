@@ -3,11 +3,17 @@
 An end-to-end churn prediction system built with CatBoost, orchestrated using ZenML, tracked via MLflow, and served through a sleek Streamlit app. Model experimentation was done in Jupyter, and the final model is stored and reused during inference.
  
 🧠 Project Highlights
+
 •	🔍 Jupyter notebook for prototyping and model selection
+
 •	📦 ZenML pipelines for training and inference workflows
+
 •	🧮 CatBoostClassifier for final model due to native categorical support
+
 •	📊 MLflow used for experiment tracking and artifact logging
+
 •	🌐 Streamlit frontend for live predictions and user interaction
+
 •	📁 Structured folder system for clarity and scalability
  
 🧰 Tech Stack
@@ -72,8 +78,11 @@ Each training run logs:
 Logs are stored in the mlruns/ directory and viewable via mlflow ui
  
 ✅ To-Do / Future Improvements
+
 •	[ ] SHAP explainability visualizations in Streamlit
+
 •	[ ] Switch to cloud storage for model and artifacts
+
 •	[ ] Add user authentication to the app
  
 ✍️ Author

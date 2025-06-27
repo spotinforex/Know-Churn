@@ -1,57 +1,29 @@
-💼 Customer Churn Prediction Pipeline
+💼 Know-Churn
+
 An end-to-end churn prediction system built with CatBoost, orchestrated using ZenML, tracked via MLflow, and served through a sleek Streamlit app. Model experimentation was done in Jupyter, and the final model is stored and reused during inference.
  
 🧠 Project Highlights
+
 •	🔍 Jupyter notebook for prototyping and model selection
+
 •	📦 ZenML pipelines for training and inference workflows
+
 •	🧮 CatBoostClassifier for final model due to native categorical support
+
 •	📊 MLflow used for experiment tracking and artifact logging
+
 •	🌐 Streamlit frontend for live predictions and user interaction
+
 •	📁 Structured folder system for clarity and scalability
- 
-📁 Project Structure
-customer_churn/
-├── data/                        # Raw data
-│   └── telco_churn.csv
-├── jupyter/
-│   └── prototyping.ipynb        # Notebook for model experiments
-├── pipelines/
-│   ├── inference_pipeline.py
-│   └── training_pipeline.py
-├── saved_model/
-│   ├── cat_boost_model.pkl      # Final trained model
-│   └── encoder.pkl              # Trained encoder
-├── src/                         # Core business logic
-│   ├── data_cleaning/
-│   ├── encoder/
-│   ├── evaluation/
-│   ├── model_dev/
-│   └── prediction/
-├── steps/                       # ZenML steps
-│   ├── clean_data.py
-│   ├── Config.py                # Config and parameters
-│   ├── evaluate_model.py
-│   ├── ingest_data.py
-│   ├── load_input_data.py       # For inference
-│   ├── load_model.py            # Load saved .pkl model
-│   ├── predict_model.py
-│   ├── run_inference.py
-│   └── train_model.py
-├── streamlit/
-│   └── app.py                   # Streamlit user interface
-├── run_inference_pipeline.py    # Entrypoint to run inference
-├── run_train_pipeline.py        # Entrypoint to run training
-├── requirements.txt
-└── README.md
  
 🧰 Tech Stack
 Purpose	Tool
-Model	       CatBoost
+Model	                       CatBoost
 Workflow Orchestration	       ZenML
-Experiment Tracking	       MLflow
+Experiment Tracking	          MLflow
 Notebook Prototyping	       Jupyter
-UI	       Streamlit
-Data Handling	      Pandas, Scikit-learn
+UI	                         Streamlit
+Data Handling	           Pandas, Scikit-learn
  
 🔧 Getting Started
 1. Clone the repository
@@ -106,8 +78,11 @@ Each training run logs:
 Logs are stored in the mlruns/ directory and viewable via mlflow ui
  
 ✅ To-Do / Future Improvements
+
 •	[ ] SHAP explainability visualizations in Streamlit
+
 •	[ ] Switch to cloud storage for model and artifacts
+
 •	[ ] Add user authentication to the app
  
 ✍️ Author

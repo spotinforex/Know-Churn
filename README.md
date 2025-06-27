@@ -1,4 +1,4 @@
-💼 Customer Churn Prediction Pipeline
+💼 Know-Churn
 An end-to-end churn prediction system built with CatBoost, orchestrated using ZenML, tracked via MLflow, and served through a sleek Streamlit app. Model experimentation was done in Jupyter, and the final model is stored and reused during inference.
  
 🧠 Project Highlights

@@ -1,0 +1,11 @@
+pandas
+numpy
+lightgbm==3.3.2
+streamlit==1.8.1
+scikit-learn
+matplotlib
+seaborn
+catboost
+pydantic
+mlflow
+zenml[server]

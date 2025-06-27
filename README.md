@@ -19,6 +19,7 @@ An end-to-end churn prediction system built with CatBoost, orchestrated using Ze
 🧰 Tech Stack
 
 Purpose	Tool
+
 Model	                       CatBoost
 
 Workflow Orchestration	       ZenML

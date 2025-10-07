@@ -88,9 +88,9 @@ This will:
 •	Log all artifacts to MLflow
  
 🔍 Run Inference
-
+```bash
 python run_inference_pipeline.py
-
+```
 •	Loads saved model and encoder
 
 •	Predicts churn on new input (batch or single)
@@ -98,9 +98,9 @@ python run_inference_pipeline.py
 •	Returns results and logs inference if configured
  
 🖥️ Launch Streamlit App
-
+```bash
 streamlit run streamlit/app.py
-
+```
 What it offers:
 
 •	Upload CSV for bulk predictions
@@ -134,8 +134,6 @@ Logs are stored in the mlruns/ directory and viewable via mlflow ui
 ✍️ Author
 
 Praisejah Nwabeke
-
-Data Scientist & Builder & Public Administrator
 
 📧 nwabekepraisejah@gmail.com
  

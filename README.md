@@ -1,4 +1,4 @@
-💼 Know-Churn
+**💼 Know-Churn**
 
 An end-to-end churn prediction system built with CatBoost, orchestrated using ZenML, tracked via MLflow, and served through a sleek Streamlit app. Model experimentation was done in Jupyter, and the final model is stored and reused during inference.
  
@@ -33,6 +33,7 @@ UI	                         Streamlit
 Data Handling	           Pandas, Scikit-learn
  
 🔧 Getting Started
+```bash
 1. Clone the repository
    
 git clone https://github.com/spotinforex/customer_churn.git
@@ -52,13 +53,15 @@ pip install -r requirements.txt
 zenml init
 mlflow ui
 Visit http://localhost:5000 to view your experiment logs.
+```
  
 📊 Prototyping & Model Selection
+```bash
 
 Run the notebook:
 
 jupyter notebook jupyter/prototyping.ipynb
-
+```
 The notebook explores:
 
 •	Data distribution

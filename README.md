@@ -73,9 +73,10 @@ The notebook explores:
 •	Final choice: CatBoostClassifier
  
 🧪 Training the Model
+```bash
 
 python run_train_pipeline.py
-
+```
 This will:
 
 •	Ingest and clean data

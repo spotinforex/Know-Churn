@@ -1,8 +1,8 @@
-**💼 Know-Churn**
+# 💼 Know-Churn
 
 An end-to-end churn prediction system built with CatBoost, orchestrated using ZenML, tracked via MLflow, and served through a sleek Streamlit app. Model experimentation was done in Jupyter, and the final model is stored and reused during inference.
  
-🧠 Project Highlights
+# 🧠 Project Highlights
 
 •	🔍 Jupyter notebook for prototyping and model selection
 
@@ -16,7 +16,7 @@ An end-to-end churn prediction system built with CatBoost, orchestrated using Ze
 
 •	📁 Structured folder system for clarity and scalability
  
-🧰 Tech Stack
+# 🧰 Tech Stack
 
 Purpose	Tool
 
@@ -55,7 +55,7 @@ mlflow ui
 Visit http://localhost:5000 to view your experiment logs.
 ```
  
-📊 Prototyping & Model Selection
+# 📊 Prototyping & Model Selection
 ```bash
 
 Run the notebook:
@@ -87,7 +87,7 @@ This will:
 
 •	Log all artifacts to MLflow
  
-🔍 Run Inference
+# 🔍 Run Inference
 ```bash
 python run_inference_pipeline.py
 ```
@@ -97,7 +97,7 @@ python run_inference_pipeline.py
 
 •	Returns results and logs inference if configured
  
-🖥️ Launch Streamlit App
+# 🖥️ Launch Streamlit App
 ```bash
 streamlit run streamlit/app.py
 ```
@@ -109,7 +109,7 @@ What it offers:
 
 •	View churn distribution as a bar chart if added to evaluate model
  
-📈 MLflow Logging
+# 📈 MLflow Logging
 
 Each training run logs:
 
@@ -123,7 +123,7 @@ Each training run logs:
 
 Logs are stored in the mlruns/ directory and viewable via mlflow ui
  
-✅ To-Do / Future Improvements
+# ✅ To-Do / Future Improvements
 
 •	[ ] SHAP explainability visualizations in Streamlit
 
